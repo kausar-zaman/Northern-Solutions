@@ -1,0 +1,212 @@
+* {
+    font-family: 'Kulim Park', sans-serif;
+}
+
+.navbar {
+    background-color: white !important;
+      border-bottom: 1px outset white;
+
+}
+
+.nav-link {
+  color:black;
+  font-weight:bold;
+  letter-spacing:0.1em;
+}
+
+.navbar-toggler-icon {
+  color: #202020;
+  margin-right: 10px;
+}
+
+
+
+body {
+  background-color:#202020;
+  color:white;
+}
+
+
+
+.carousel-inner {
+  border-style: outset;
+}
+
+
+.container-title {
+	margin: 10px 0px;
+text-align: center;
+
+}
+
+#main-container {
+  margin-bottom: 20px;
+}
+
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.bg-white {
+
+    background: rgb(230,230,230);
+	background: linear-gradient(90deg, rgba(230,230,230,1) 0%, rgba(255,255,255,1) 50%);
+    padding:50px;
+	max-width:100%;
+	max-height:100%;
+
+
+}
+
+.bg-white img {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+
+
+.bg-white h1 {
+  margin:50px auto;
+  color:black;
+  text-align: center;
+  font-size:50px;
+  font-weight: bold;
+  vertical-align: middle;
+}
+
+.bg-primary {
+  text-align: center;
+  padding:50px;
+  background-color:  #007bff !important;
+
+}
+
+.container-white {
+  background-color: white;
+  text-align: center;
+  color:#202020;
+  padding:30px;
+  border-top: 2px solid #202020;
+}
+
+.container-black {
+  background-color: #202020;
+  text-align: center;
+  color:white;
+  padding:30px;
+}
+
+.fade-in {
+
+      opacity:0;
+  }
+
+
+
+.container-white img {
+  display:inline-block;
+  margin-top:10px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.fadein {
+  opacity: 0;
+}
+
+footer {
+background-color: #101010;
+}
+
+/* About Us */
+#about-fluid{
+  padding-right: 0px;
+  padding-left: 0px;
+  width:100%;
+  height:400px;
+  position:relative;
+
+
+}
+
+#about-fluid img {
+  object-fit: cover; /* Do not scale the image */
+  object-position: center; /* Center the image within the element */
+  width: 100%;
+  max-height: 400px;
+  margin-bottom: 1rem;
+  opacity: 0.7;
+}
+
+.centered {
+  position: absolute;
+  top: 45%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+#about-fluid h1 {
+  font-size: 5.0rem;
+  text-shadow: 2px 2px 4px #000000;
+  animation: fadein 4s;
+}
+
+#container-about {
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.col-sm-4 img {
+  width:350px;
+}
+
+@keyframes fadein {
+    from {
+        opacity:0;
+    }
+    to {
+        opacity:1;
+    }
+}
+
+/*Email Confirmation*/
+
+#email-sent {
+  padding: 20px 0px;
+  text-align: center;
+}
+
+
+
+@media only screen and (max-width: 375px) {
+  .centered {
+    position: absolute;
+    top: 25%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+#about-fluid h1 {
+    font-size: 2rem;
+    text-shadow: 2px 2px 4px
+    #000000;
+    animation: fadein 4s;
+  }
+
+.carousel-inner {
+  height: 200px;
+  width: auto;
+}
+
+}
+
+@media screen and (max-width: 768px) {
+  #about-fluid h1 {
+    font-size: 4rem;
+    text-shadow: 2px 2px 4px
+    #000000;
+    animation: fadein 4s;
+  }
+}
